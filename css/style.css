@@ -1,3 +1,13 @@
+body{
+  font-family: 'Hind', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 24px;
+  font-size: 15px;
+}
+
+
+
 /* Top Bar
 ================================================== */
 
