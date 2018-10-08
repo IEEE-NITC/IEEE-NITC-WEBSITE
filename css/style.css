@@ -1,0 +1,121 @@
+body{
+  font-family: 'Hind', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 24px;
+  font-size: 15px;
+}
+
+
+
+/* Top Bar
+================================================== */
+
+.top-bar .container {
+    padding: 8px 20px 8px;
+    background: #0D6797;
+    position: relative;
+ }
+ 
+ .top-bar .container:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #fff;
+    border-right: 20px solid rgba(0, 0, 0, 0);
+    background: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+ }
+ 
+ /* Top info */
+ 
+ ul.top-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-weight: 600;
+ }
+ 
+ 
+ ul.top-info li {
+    position: relative;
+    line-height: 10px;
+    display: inline-block;
+    margin-left: 0;
+    padding-right: 15px;
+ }
+ 
+ ul.top-info li i{
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+ }
+ 
+ 
+ ul.top-info li a.info-text {
+    margin: 0;
+    line-height: normal;
+    display: inline-block;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+ }
+ a.info-text{
+   color:white;
+ }
+ a.info-text:hover{
+   color:#d3d3d3;
+ }
+ 
+ /* Top social */
+ 
+ .top-social ul{
+     list-style: none;
+       padding: 0;
+       margin: 0;
+ }
+ 
+ .top-social li {
+   display: inline-block;
+   padding: 0;
+ }
+ 
+ .top-social li a{
+    color: #fff;
+     margin-right: 15px;
+     font-size: 14px;
+     -webkit-transition: 400ms;
+       -moz-transition: 400ms;
+       -o-transition: 400ms;
+       transition: 400ms;
+ }
+ 
+ .top-social li a:hover{
+     color: #d3d3d3;
+ }
+ 
+ /* Top bar border */
+ 
+ .top-bar-border{
+    padding: 8px 20px 8px;
+    border-bottom: 1px solid #ddd;
+ }
+ 
+ .top-bar-border ul.top-info{
+    color: #7c7c7c;
+    font-weight: 400;
+ }
+ 
+ .top-bar-border .top-social li a{
+    color: #7c7c7c;
+ }
+ 
+ .top-bar-border ul.top-info li i{
+    color: #0D6797;
+ }
+ 
